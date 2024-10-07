@@ -14,8 +14,8 @@ public class Program {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        int billAmount = sc.nextInt();
-        double tipAmount = billAmount*15/100
+        double billAmount = sc.nextDouble();
+        double tipAmount = billAmount*15/100;
 
         System.out.println(tipAmount);
         
